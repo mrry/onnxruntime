@@ -213,7 +213,7 @@ target_link_libraries(${SERVER_APP_NAME} PRIVATE
   ${Boost_LIBRARIES}
   onnxruntime_server_http_core_lib
   ${grpc_static_libs}  protobuf::libprotobuf
-  spdlog::spdlog
+  spdlog
   onnxruntime gtest re2  ${CMAKE_DL_LIBS} Threads::Threads
 )
 
